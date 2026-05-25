@@ -121,3 +121,10 @@ contract BaseNBAShooter is Ownable {
         playerStats[player].points += amount;
     }
 }
+
+takeShot(0) → 2
+takeShot(1) → 3 
+takeShot(2) → 
+getMyStats() → check score
+getRemainingShots() → check times
+
